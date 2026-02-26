@@ -1,0 +1,24 @@
+name: festim-permeation-fit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - fenics
+  - jupyter-book
+  - jupytext
+  - sphinx-tags
+  - matplotlib
+  - pandas
+  - meshio[all]
+  - gmsh
+  - python-gmsh
+  - numpy==1.24
+  - pip>=20.1
+  - ipykernel
+  - nbconvert
+  - mpi4py<4
+  - festim~=1.4
+  - pip:
+    - pyparsing
+    - h-transport-materials==0.16
