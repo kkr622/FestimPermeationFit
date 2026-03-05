@@ -24,7 +24,7 @@ plugins:
 nav:
   - Home: index.md
   - FESTIM: festim.md
-  - Theory: optimization.md
+  - optimization: optimization.md
 
 extra_javascript:
   - javascripts/config.js
