@@ -16,8 +16,10 @@ The `Piecewise` function is used to vary the incident flux over time in FESTIM. 
 \[
 \Gamma(t) = 
 \begin{cases} 
-\Gamma_{1} & \text{if } t \le t_{split} \\
-\Gamma_{2} & \text{if } t > t_{split} 
+\Gamma_{1} & \text{if } 0 \le t \le dt \\
+\Gamma_{2} & \text{if } dt < t \le 2dt \\
+\vdots \\
+\Gamma_{n} & \text{if } (n-1)dt < t \le n \cdot dt
 \end{cases}
 \]
 
